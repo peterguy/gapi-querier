@@ -96,7 +96,7 @@ async function runAsync(checkSharedAlbums) {
 
             tr.innerHTML =
                 //`<td>${id}<td>` +
-                `<td><a href='${url}' target='_blank'>${url}</a><td>`;
+                `<td><a href='${url}' target='_blank'>${id}</a><td>`;
 
             table.appendChild(tr);
         }
